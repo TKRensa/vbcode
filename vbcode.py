@@ -93,13 +93,3 @@ exportEncodedText(listText)
 testnum = [12552,5,12,128,1502,2352]
 testnum2 = sorted(testnum)
 
-"""
-print(VBEncode(testnum2))
-a = VBEncode(testnum2)
-print(VBDecode(a))
-
-print(VBEncode(createDif(testnum2)))
-a = VBEncode(createDif(testnum2))
-print(VBDecode(a))
-print(deleteDif(VBDecode(a)))
-"""
